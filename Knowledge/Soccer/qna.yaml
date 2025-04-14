@@ -1,0 +1,37 @@
+version: 3
+domain: Soccer Rules
+created_by: jochoa
+document_outline: |
+  International Football Association Board (IFAB) 17 Rules of Soccer
+seed_examples:
+  - context: |
+    12.7  MISCONDUCT  PENALTIES:    A  five  (5)  minute  Misconduct  Penalty  shall  be  assessed  against  players  who  show disapproval, by word or action, of the decision by the Referee or other game officials or acts in a severe un-sportsmanlike manner. These penalties shall be administered by the showing of a Yellow Card and shall be five (5) minutes in length. Misconduct penalty time shall not be entered on the arena scoreboard. As no Power Play is awarded to the opposing team, the offending player may not exit the penalty box until the first guaranteed substitution or when the ball goes over the perimeter wall and is out of play, after his penalty time has expired.  A player whose misconduct penalty expires does not have to report to the bench, he may go directly on the field as a player.  Similar misconduct by bench personnel (or non-players) shall be recorded for purposes of multiple penalty Power Play and ejection for that individual. Should any player or non-player exhibit misconduct at the conclusion of the game, the Referee shall not display the appropriate card, but shall submit a detailed report to the League and inform the team that such a report has been filed.
+    (a) Misconduct by Non-Players: Misconduct involving non-playing personnel shall be considered administrative in nature, and shall be reported to the League. No time penalty shall be served for such offenses.
+    (b) Team Misconduct: Team Misconduct shall be defined as physical or verbal abuse of the Referees where the offender is not identifiable. For any team violation, the Referees shall assess a Misconduct penalty to the coach of the offending team. This Rule shall not prohibit Referees from penalizing individual players or non-playing personnel. The Referee may issue a 'bench warning' before issuing an indiv idual or team misconduct.
+    (c) Game Delay: Game Clock will begin at the designated start time for the game, if a team cannot field enough players (4) to start the game within 5 minutes (so at 20 minutes of the 1 st half) the game will be a forfeit and the winning team will get maximum points for the forfeit.
+
+    questions_and_answers:
+      - question: How long does a player serve for a misconduct infraction?
+        answer: The penalty lasts for five minutes.
+      - question: What actions can cause a player to receive a misconduct penalty?
+        answer: Speaking or acting out against an official's decision, or behaving in a clearly disrespectful manner.
+      - question: What is shown by the referee to indicate a misconduct has occurred?
+        answer: A yellow card is displayed.
+      - question: Will the penalty time for misconduct appear on the scoreboard?
+        answer: No, it will not be shown on the scoreboard.
+      - question: Does the team that was not penalized gain a Power Play?
+        answer: No, a Power Play is not granted in this situation.
+      - question: When is a penalized player allowed to leave the penalty area?
+        answer: After their time is up and either a guaranteed substitution occurs or the ball goes out of play.
+      - question: Must the player report to the bench after serving their penalty?
+        answer: No, they can go straight back onto the field.
+      - question: How is misconduct by someone not actively playing handled?
+        answer: It’s reported to the League, but no penalty time is served.
+      - question: What qualifies as team misconduct?
+        answer: When referees are abused verbally or physically and the individual responsible can’t be identified.
+      - question: Who gets the penalty if the team is at fault but no individual can be identified?
+        answer: The team’s head coach will receive the penalty.
+      - question: What can a referee do before issuing a misconduct penalty to a team?
+        answer: The referee can give a warning to the bench.
+      - question: What occurs if a team fails to have four players ready to play within five minutes of the start time?
+        answer: The match is forfeited, and the other team earns full points for the win.
