@@ -144,7 +144,7 @@ seed_examples:
           fabricated outputs, despite maintaining coherent structure and style
           in its response.
 document:
-  repo:
-  commit:
+  repo: 'https://github.com/javo8a/scaling-spork.git'
+  commit: '17313f9'
   patterns:
     -
