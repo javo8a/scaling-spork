@@ -1,164 +1,150 @@
+created_by: bodefuwa
 version: 3
 domain: AI Cheatsheet
-created_by: bodefuwa
-document_outline: |
-  A cheatsheet of AI terms and their definitions, an AI maturity model, and definitions of AI related domains such as Machine learning, Data science and Generative AI 
+document_outline: >-
+  A cheatsheet of AI terms and their definitions, an AI maturity model, and
+  definitions of AI related domains such as Machine learning, Data science and
+  Generative AI
 seed_examples:
-  - context: |
-      The AI Maturity Model is a framework used to assess an organization's level of AI adoption and integration across different stages. It helps stakeholders understand where their organization stands and what steps are needed to advance AI capabilities.
+  - context: >-
+      The AI Maturity Model is a framework used to assess an organization's
+      level of AI adoption and integration across different stages. It helps
+      stakeholders understand where their organization stands and what steps are
+      needed to advance AI capabilities.
 
-      - 1. Awareness: The organization recognizes AI as a key area of potential but lacks a clear strategy or significant investment.
-      - Key Characteristics:
-      - Awareness of AI technologies and trends.
-      - High-level discussions on AI with limited understanding or action.
-      - Minimal experimentation or pilot projects.
-      - 3. Operational: AI has moved into production with operational applications that follow best practices for implementation and scaling.
-      - Key Characteristics:
-      - AI models are deployed in production, providing valuable insights or automating processes.
-      - Establishment of best practices for model governance,
-      - monitoring, and continuous improvement.
-      - Integration of AI into existing business processes but may still be siloed in specific functions.
+            - 1. Awareness: The organization recognizes AI as a key area of potential but lacks a clear strategy or significant investment.
+            - Key Characteristics:
+            - Awareness of AI technologies and trends.
+            - High-level discussions on AI
+    questions_and_answers:
+      - question: Is hyperscale a level of the AI maturity model?
+        answer: >-
+          The AI maturity model includes the following models, awareness,
+          active, operational, and systemic. Hyperscale isn't a level of the
+          maturity model
+      - question: >-
+          Can an organization that is at the Systemic level of the AI maturity
+          model be considered mature?
+        answer: ' An organization at the System level of the AI maturity model can be considered to be mature in thier AI adoption because AI is fully integrated into the organization''s digital strategy and core business process. The organization also has a structure'
+      - question: >-
+          What are key characteristics of the Transformational level of the AI
+          maturity model?
+        answer: |2-
+           Key characteristics of the Transformation level of the AI maturity model are as follows:
+                  - AI is a driving force for business model innovation and differentiation.
+                  - Continuous improvement through AI becomes second nature to the org
+  - context: |2-
+            | Term                    | Definition                                                                                | Notes   |
+            | Interpretability  | Understanding a model's internal logic-important for trust and debugging in AI systems.                      |         |
+            | L1 Regularization | Amethod that encourages sparsity in models-used to reduce complexity and prevent overfitting.                |         |
+            | L2 Regularization | Amethod that discourages large model w
+    questions_and_answers:
+      - question: Explain how L1 Regularization differs from L2 Regulaization.
+        answer: >-
+          L1 Regulaization is a method that encourages sparsity in models-used
+          to reduce complexity and prevent overfitting while L2 Regularization
+          is method that discourages large model weights-helps generalize and
+          stabilize training.
+      - question: Why is Interpretability important in AI?
+        answer: ' Interpretability is important for understanding a model''s internal logic which is necessary for for trust and debugging in AI systems.'
+      - question: ' Why is Latent Space useful for data visualization and data modeling?'
+        answer: Latent space is useful for data visualization and data modeling be
+  - context: |2-
+       | Cross-validation                               | Atechnique for validating models using multiple data splits-helps ensure robustness and avoid overfitting.            |         |
+            | Decoder-only                                   | Atransformer architecture used in models like GPT-optimized for generating text rather than understanding it.         |         |
+            | Discriminative Model                           | Amodel that learns the boundary between classes-used in classification tas
+    questions_and_answers:
+      - question: >-
+          Which technique helps ensure a model is robust and not overfitting by
+          splitting the data multiple times into training and validation sets?
+        answer: >-
+          Cross-validation. It systematically uses different portions of the
+          dataset as training and validation subsets, providing a more reliable
+          assessment of model performance.
+      - question: >-
+          What type of model learns the boundary between classes and is
+          typically used for classification tasks where accurate prediction is
+          key?
+        answer: >-
+          A Discriminative Model. It focuses on learning how to distinguish
+          between classes rather than generating the data itself.
+      - question: >-
+          Which metric is especially useful when dealing with imbalanced data
+          because it combines both precision and recall?
+        answer: >-
+          The F1 Score. It provides a single measure that balances precision
+          (how many selected items are relevant) and recall (how many relevant
+          items are selected).
+  - context: |-
+      Key Takeaways for Executives:
 
-      <!-- image -->
+            - Awareness: Invest in education and awareness to build a foundational understanding of AI.
+            - Active: Focus on experimentation and pilot projects, setting up the groundwork for practical AI applications.
+            - Operational: Scale AI applications into production and establish robust operational best practices.
+            - Systemic: Ensure AI is an integrated part of the business strategy and daily operations.
+            - Transformational: Foster a culture where
+    questions_and_answers:
+      - question: >-
+          Which stage of the AI Maturity Model is characterized by recognizing
+          AI’s potential but having minimal experimentation, limited strategy,
+          and lack of significant investment?
+        answer: >-
+          Awareness (Stage 1). At this level, the organization has high-level
+          discussions about AI but little concrete action or investment, with
+          only minimal pilot projects or experimentation in place.
+      - question: >-
+          At which stage are AI models deployed in production environments, with
+          best practices established for governance, monitoring, and continuous
+          improvement?
+        answer: >-
+          Operational (Stage 3). Here, AI applications are successfully moved
+          into day-to-day operations. Models are actively monitored and refined,
+          providing tangible benefits and insights.
+      - question: >-
+          Which stage involves AI fully embedded in the organization’s culture
+          and strategy, driving innovation, pervasive automation, and creating a
+          clear competitive advantage?
+        answer: >-
+          Transformational (Stage 5). In this phase, AI underpins business model
+          innovations, data-driven decision-making permeates all levels, and
+          continuous AI-driven improvements become second nature.
+  - context: >-
+      | Genrative AI (GenAI)              | AI that creates new content such as
+      text, images, or
+      audio.
+      |         |
 
-      5. Transformational: AI is embedded into the organization's DNA, driving transformation across all levels of the business, from operations to culture.
+      | Generative Model                  | Amodel that learns to generate new
+      data similar to its training
+      set.
+      |         |
 
-      - Key Characteristics:
-      - AI is a driving force for business model innovation and differentiation.
-      - Continuous improvement through AI becomes second nature to the organization, deeply embedded in the culture.
-      - Data-driven decision-making and automation are pervasive across all business functions, creating a competitive advantage.
-
-      ## Key Takeaways for Executives:
-
-      - Awareness: Invest in education and awareness to build a foundational understanding of AI.
-      - Active: Focus on experimentation and pilot projects, setting up the groundwork for practical AI applications.
-      - Operational: Scale AI applications into production and establish robust operational best practices.
-      - Systemic: Ensure AI is an integrated part of the business strategy and daily operations.
-      - Transformational: Foster a culture where AI is central to continuous innovation and business transformation.
-      - . Active (Experimentation): The organization is actively experimenting with AI, typically in a data science context, through small pilot projects.
-      - Key Characteristics:
-      - Initial AI projects in research and development, often within isolated business units or departments.
-      - Focus on experimentation and proof of concepts, mostly by data science teams.
-      - Early-stage tools and models, possibly involving predictive analytics or natural language processing.
-      - 4. Systemic: AI is fully integrated into the organization's digital strategy and core business processes, with a structured AI strategy and governance in place.
-  - questions_and_answers:
-  - question: |
-      Is hyperscale a level of the AI maturity model?
-  - answer: |  
-      The AI maturity model includes the following models, awareness, active, operational, and systemic. Hyperscale isn't a level of the maturity model   
-  - question: |
-      Can an organization that is at the Systemic level of the AI maturity model be considered mature? 
-  - answer: | 
-      An organization at the System level of the AI maturity model can be considered to be mature in thier AI adoption because AI is fully integrated into the organization's digital strategy and core business process. The organization also has a structured AI strategy and governance in place.
-  - question: |
-      What are key characteristics of the Transformational level of the AI maturity model?
-  - answer: | 
-      Key characteristics of the Transformation level of the AI maturity model are as follows: 
-        - AI is a driving force for business model innovation and differentiation.
-        - Continuous improvement through AI becomes second nature to the organization, deeply embedded in the culture.
-        - Data-driven decision-making and automation are pervasive across all business functions, creating a competitive advantage. 
-  - context: |
-      The AI Maturity Model is a framework used to assess an organization's level of AI adoption and integration across different stages. It helps stakeholders understand where their organization stands and what steps are needed to advance AI capabilities.
-questions_and_answers:
-  - question: |
-      Is hyperscale a level of the AI maturity model?
-  - answer: |  
-      The AI maturity model includes the following models, awareness, active, operational, and systemic. Hyperscale isn't a level of the maturity model 
-  - question: |
-      Are classification and clustering the same thing?
-  - answer: | 
-      Classification and clustering are different types of machine learning. Classification assigns input data to predefined labels, while clustering groups similar data points together without labeled outcomes from unsupervised learning.
-  - question: |
-      Can I make an inference from an untrained model?
-  - answer: | 
-      Inference can only be made from a model that is trained. The process of making predictions requires using a trained model.
-  - context: |
-      | Term                    | Definition                                                                                | Notes   |
-      |-------------------------|-------------------------------------------------------------------------------------------|---------|
-      | Assistants              | AI systems designed to help users with tasks via natural language interfaces              |         |
-      | Agentic AI              | AI that acts autonomously to achieve goals, often involving decision-making and planning. |         |
-      | Bag of Words            | Atext representation method treating text as an unordered collection of words.            |         |
-      | Benchmarking            | Evaluating models against standard datasets to measure performance and compare systems.   |         |
-      | Chain-of-thought        | Areasoning approach where intermediate steps are generated to aid in solving tasks.       |         |
-      | Classification          | Assigning input data to predefined categories or labels.                                  |         |
-      | Clustering              | Grouping similar data points together without labeled outcomes (unsupervised).            |         |
-      | Collaborative Filtering | Arecommendation method based on user-item interaction patterns.                           |         |
-      | CommonCrawl             | Apublicly available web dataset used for large-scale language model training.             |         |
-      | Context Window          | The amount of text a language model can consider at once when generating output.          |         |
-      | Data Augmentation       | Techniques to increase dataset size by modifying existing data samples.                   |         |
-      | Deep Learning           | Asubset of machine learning using neural networks with many layers.                       |         |
-      | Edge AI                 | Running AI models locally on edge devices for low-latency and privacy.                    |         |
-      | Embeddings              | Vector representations of data (e.g., words, images) capturing semantic meaning.          |         |
-      | Explainability          | The ability to understand and interpret how and why a model makes decisions.              |         |
-      | Explainable AI (XAI)    | AI systems designed to provide transparent, interpretable decisions.                      |         |
-      | Feature                 | Anindividual measurable property or characteristic used in model training.                |         |
-      | Federated Learning      | Training models across decentralized data sources without data sharing.                   |         |
-      | Fine-Tuning             | Adapting a pre-trained model to a specific task with new data.                            |         |
-  - question: |
-
-  - answer: | 
-
-  - question: |
-
-  - answer: | 
-
-  - question: |
-      Can I make an inference from an untrained model?
-  - answer: | 
-      Inference can only be made from a model that is trained. The process of making predictions requires using a trained model.
-  - context |
-      | Term                                           | Definition                                                                                                            | Notes   |
-      |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|---------|
-      | Cross-validation                               | Atechnique for validating models using multiple data splits-helps ensure robustness and avoid overfitting.            |         |
-      | Decoder-only                                   | Atransformer architecture used in models like GPT-optimized for generating text rather than understanding it.         |         |
-      | Discriminative Model                           | Amodel that learns the boundary between classes-used in classification tasks where prediction accuracy is key.        |         |
-      | Dropout                                        | Aregularization technique that disables random neurons during training- improves generalization.                      |         |
-      | Early Stopping                                 | Atechnique to halt training when performance stops improving-helps prevent overfitting.                               |         |
-      | Encoder-decoder                                | Atransformer architecture for tasks like translation-used when both input and output sequences matter.                |         |
-      | Encoder-only                                   | Used in models like BERT-optimized for understanding and analyzing input sequences.                                   |         |
-      | Epoch                                          | One full pass through the training dataset-used in planning and monitoring model training duration.                   |         |
-      | F1 Score                                       | Ametric combining precision and recall-especially useful when data is imbalanced.                                     |         |
-      | Feature Engineering                            | The process of selecting and transforming variables to improve model performance-often where domain knowledge shines. |         |
-      | GloVe (Global Vectors for Word Representation) | Anearly word embedding technique-commonly used in NLPbenchmarks.                                                      |         |
-      | Gradient Clipping                              | Amethod to prevent exploding gradients during training-useful in RNNsand deep models.                                 |         |
-      | Gradient Descent                               | Anoptimization algorithm for minimizing loss functions-core to most model training pipelines.                         |         |
-      | Hyperparameters                                | Model configuration settings set before training-impact accuracy, efficiency, and training time.                      |         |
-      | Image Segmentation                             | Dividing an image into meaningful parts-used in medical imaging, autonomous vehicles, and more.                       |         |
-  - question |
-      Which technique helps ensure a model is robust and not overfitting by splitting the data multiple times into training and validation sets?
-  - answer |
-      Cross-validation. It systematically uses different portions of the dataset as training and validation subsets, providing a more reliable assessment of model performance.
-  - question |
-      What type of model learns the boundary between classes and is typically used for classification tasks where accurate prediction is key?
-  - answer |
-      A Discriminative Model. It focuses on learning how to distinguish between classes rather than generating the data itself.
-  - question |
-      Which metric is especially useful when dealing with imbalanced data because it combines both precision and recall?
-  - answer |
-      The F1 Score. It provides a single measure that balances precision (how many selected items are relevant) and recall (how many relevant items are selected).
-  - context |
-      | Term              | Definition                                                                                                   | Notes   |
-      |-------------------|--------------------------------------------------------------------------------------------------------------|---------|
-      | Interpretability  | Understanding a model's internal logic-important for trust and debugging in AI systems.                      |         |
-      | L1 Regularization | Amethod that encourages sparsity in models-used to reduce complexity and prevent overfitting.                |         |
-      | L2 Regularization | Amethod that discourages large model weights-helps generalize and stabilize training.                        |         |
-      | Latent Space      | Anabstract representation of data learned by models-useful when visualizing embeddings or model compression. |         |
-      | Logits            | Raw model outputs before probabilities-used in loss calculations and debugging classification issues.        |         |
-  - question: |
-      Explain how L1 Regularization differs from L2 Regulaization.
-  - answer: | 
-      L1 Regulaization is a method that encourages sparsity in models-used to reduce complexity and prevent overfitting while L2 Regularization is method that discourages large model weights-helps generalize and stabilize training. 
-  - question: |
-      Why is Interpretability important in AI?
-  - answer: | 
-      Interpretability is important for understanding a model's internal logic which is necessary for for trust and debugging in AI systems.
-  - question: |
-      Why is Latent Space useful for data visualization and data modeling?
-  - answer: | 
-      Latent space is useful for data visualization and data modeling be
-
-document: 
-  repo: 'https://github.com/javo8a/scaling-spork.git'
-  commit: 
-  patterns: 
-  - 
+      | Generative Pre-Trained (GPT)      | Generative Pre-trained Transformer,
+      a language model developed by OpenAI.
+    questions_and_answers:
+      - question: >-
+          Which term describes AI that creates new content such as text, images,
+          or audio?
+        answer: >-
+          Generative AI (GenAI). It refers to systems capable of producing novel
+          outputs that resemble the data they were trained on, such as text,
+          images, or music.
+      - question: >-
+          What is the process of using a trained model to make predictions
+          called?
+        answer: >-
+          Inference. This stage involves feeding new data into a model so it can
+          generate predictions or labels based on what it has learned during
+          training.
+      - question: >-
+          What do we call the phenomenon where a model generates information
+          that sounds plausible but is actually incorrect or nonsensical?
+        answer: >-
+          Hallucination. This occurs when an AI model provides inaccurate or
+          fabricated outputs, despite maintaining coherent structure and style
+          in its response.
+document:
+  repo:
+  commit:
+  patterns:
+    -
